@@ -1,0 +1,18 @@
+.logmain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  flex-direction: column;
+  gap: 15px;
+}
+.errorstackinlogin {
+  width: 80%;
+  padding-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 10px;
+}
+.errortextinlogin > span {
+  font-size: 18px;
+}

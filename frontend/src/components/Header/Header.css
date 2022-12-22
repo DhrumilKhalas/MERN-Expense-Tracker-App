@@ -1,0 +1,62 @@
+.headermain {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.headerlogoname {
+  cursor: pointer;
+}
+.toolbarheader {
+  display: flex;
+  justify-content: space-between;
+}
+.loginregbtn {
+  display: flex;
+  gap: 15px;
+}
+.usernameinheader {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  font-family: "Nunito", sans-serif;
+}
+@media only screen and (min-width: 300px) and (max-width: 480px) {
+  .usernameinheader {
+    display: flex;
+    gap: 5px;
+  }
+  .loginregbtn {
+    display: flex;
+    gap: 5px;
+  }
+  .loginbtninheader {
+    height: 28px;
+  }
+  .registerbtninheader {
+    height: 28px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .usernameinheader {
+    display: flex;
+    gap: 5px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .usernameinheader {
+    display: flex;
+    gap: 5px;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .usernameinheader {
+    display: flex;
+    gap: 5px;
+  }
+}
+@media only screen and (max-width: 250px) {
+  .logutbtninheader {
+    height: 20px;
+    width: 20px;
+  }
+}
