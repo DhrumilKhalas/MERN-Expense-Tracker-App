@@ -1,0 +1,57 @@
+.errmain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  gap: 20px;
+}
+.err1 {
+  font-size: 70px;
+}
+.err2 {
+  font-size: 35px;
+}
+.err3 {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.err3 > button {
+  height: 45px;
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .err1 {
+    font-size: 58px;
+  }
+  .err2 {
+    font-size: 28px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .err1 {
+    font-size: 38px;
+  }
+  .err2 {
+    font-size: 19px;
+  }
+  .err3 > button {
+    height: 35px;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 480px) {
+  .err1 {
+    font-size: 23px;
+  }
+  .err2 {
+    font-size: 16px;
+    text-align: center;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .err3 > button {
+    height: 35px;
+  }
+}

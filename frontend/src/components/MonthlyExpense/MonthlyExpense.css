@@ -1,0 +1,45 @@
+.montlhyexpenseheading > span {
+  font-size: 20px;
+}
+.montlhyexpenseheading {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.memonthandexpense {
+  display: flex;
+  justify-content: space-between;
+}
+.metotalexpense {
+  font-weight: bold;
+  font-size: 18px;
+  color: red;
+  margin-left: 5px;
+}
+.meaccordian {
+  margin-top: 12px;
+}
+.memonth > span {
+  font-size: 18px;
+}
+.memoredetails {
+  color: grey;
+}
+.memoredetailsbox {
+  margin-bottom: 10px;
+}
+.memoredetailsboxamount {
+  font-size: 14px;
+}
+.memoredetailsboxdesc {
+  font-size: 14px;
+}
+.memoredetailsboxdate {
+  font-size: 14px;
+  color: grey;
+  margin-bottom: 10px;
+}
+.monthwisecard {
+  margin-top: 20px;
+}
+@media only screen and (min-width: 300px) and (max-width: 480) {
+}
